@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.navbar{
+    background-color: rgb(238, 238, 250);
+    display:grid;
+    grid-template-columns: repeat(9, 1fr);
+    color:black;
+}
+.logo{
+    padding-top: 15px;
+    width: 150px;
+    grid-column: 5/6;
+        
+}
+.navbar .menu{
+    display: flex;
+    grid-column: 1/4;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar .menu li{
+    list-style: none;
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: black;
+}
+.navbar .menu-bar{
+    display: none;
+}
+.navbar .shoping{
+    grid-column: 9/10;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar .usd{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    grid-column: 8/9;
+}
