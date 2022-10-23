@@ -138,6 +138,7 @@
 }
 
 .section-three{
+    background-image: url(../IMG/bg-1.jpg);
     height: 300px;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -145,16 +146,16 @@
     padding-top: 70px;
 }
 .title-section-three h2 {
-    background-color: aliceblue;
+    background-image: url(../IMG/bg-1.jpg);
     text-align: center;
     font-size: 2em;
     color:#000000;
     font-weight: 400;
    
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .title-section-three p{
-    background-color: aliceblue;
+    background-image: url(../IMG/bg-1.jpg);
     text-align: center;
     font-size: 1em;
     color:#000;
