@@ -168,7 +168,7 @@
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(32, 1fr);
 }
 .img-product-one{
     width: 200px;
