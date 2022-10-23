@@ -60,6 +60,20 @@
         margin-left: 0px;
     }
     /*Main section-3*/
-    .title-section-three{
-        margin-top: 150px;
+    .title-section-three h2{
+        margin-top: 100px;
     }
+    .img-product-one{
+    grid-column: 1/16;
+    }
+    .img-product-two {
+        grid-column: 1/16;
+        
+    }
+    .img-product-three{
+        grid-column: 1/16;
+    }
+    .img-product-four{
+        grid-column: 1/16; 
+    }
+}
