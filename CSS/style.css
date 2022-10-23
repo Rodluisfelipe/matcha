@@ -44,3 +44,31 @@
     padding-bottom: 30px;
     grid-column: 8/9;
 }
+/* section-main*/
+.hero{
+    height: 80vh;
+    background: url(../IMG/slider-2.jpg);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+.hero .info-content{
+    grid-column: 4/8;
+    grid-row: 4/6;
+    color: #000;
+}
+.hero h3{
+    font-size: 3em;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+}
+.hero a{
+    justify-content: center;
+    margin: auto;
+    color: #000;
+    font-size: 1em;
+}

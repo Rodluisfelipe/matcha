@@ -2,6 +2,7 @@
         .navbar{
             
             position: relative;
+            padding-bottom: 20px;
         }
         .navbar .shoping{
             display: none;
@@ -29,4 +30,18 @@
             padding-left: 10px;
             grid-column: 1/6;
         }
+    /*Main section-1*/
+    .hero .info-content{
+        grid-column: 2/10;
+        grid-row: 4/6;
+        color: #000;}
+    .hero h3{
+        font-size: 2em;
+
+        
+    }
+    .hero {
+        background-position: center;
+        height: 400px;
+    }
     }
