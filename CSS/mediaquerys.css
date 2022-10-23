@@ -44,4 +44,18 @@
         background-position: center;
         height: 400px;
     }
+    /*Main section-2*/
+    .section-two{
+        padding-top: 0;
+        margin-top: 20px;
+    }
+    .section-two .products-content-one{
+        position: absolute;
+    }
+    .section-two .products-content-two{
+        display: block;
+        margin-top: 250px;
+        position: absolute;
+        margin-bottom: 20px;
+    }
     }
