@@ -1,0 +1,32 @@
+    @media only screen and (max-width: 600px) {
+        .navbar{
+            
+            position: relative;
+        }
+        .navbar .shoping{
+            display: none;
+        }
+        .navbar .menu-bar{
+            display: flex;
+            grid-column: 9/10;
+            font-size: 1.5em;
+            cursor: pointer;
+            padding:0;
+            padding-top: 27px;
+        }
+        .navbar .usd{
+            padding: 0;
+            padding-top: 30px;
+            grid-column: 7/8;
+        }
+        .navbar .menu{
+            display: none;
+        }
+        
+        .navbar .logo{
+            padding: 0px;
+            padding-top: 15px;
+            padding-left: 10px;
+            grid-column: 1/6;
+        }
+    }
