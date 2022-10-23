@@ -64,6 +64,8 @@
         margin-top: 100px;
     }
     .section-three{
+        background-image: url(../IMG/bg-1.jpg);
+        background-size: cover;
         height: 100%;
     }
     .img-product-one{

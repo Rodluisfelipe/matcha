@@ -81,6 +81,7 @@
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(8, 1fr);
     padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 .section-two .products-content-one{
@@ -139,6 +140,7 @@
 
 .section-three{
     background-image: url(../IMG/bg-1.jpg);
+    background-size: cover;
     height: 300px;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -151,8 +153,8 @@
     font-size: 2em;
     color:#000000;
     font-weight: 400;
-   
-    padding-top: 50px;
+   padding-top: 30px;
+    margin-top: 30px;
 }
 .title-section-three p{
     background-image: url(../IMG/bg-1.jpg);
@@ -164,7 +166,7 @@
 }
 .section-three{
     height: 80vh;
-    background-color: aliceblue;
+    background-image: url(../IMG/bg-1.jpg);
     background-size: cover;
     max-width: 100%;
     display: grid;
