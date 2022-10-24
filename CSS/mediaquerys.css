@@ -66,6 +66,7 @@
     .section-three{
         background-image: url(../IMG/bg-1.jpg);
         background-size: cover;
+        display: block;
         height: 100%;
     }
     .img-product-one{
@@ -125,4 +126,13 @@
                 .img-product-four h4{
                     margin-bottom: 50px;
                 }
+/*section four*/
+#text-one-section-four {
+    text-align: center;
+    font-size: 1.2em;
+    color:#000;
+    font-weight: 200;
+    padding-left:10%;
+    padding-right: 10%;
+}
 }
